@@ -1,0 +1,73 @@
+body {
+    background-image: url('background4.jpg');
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'Luckiest Guy';
+    font-weight: 50;
+    font-size: 50px;
+    color: #0062FF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.sub-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: -0.25%;
+    text-align: center;
+}
+
+.container {
+    max-width: 45%;
+    max-height: 30%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    opacity: 75%;
+    border-radius: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    font-family: Luckiest Guy, sans-serif;
+    font-size: 20px;
+}
+
+.container p {
+    font-family: Mclaren, sans-serif;
+    font-size: 12.5px;
+}
+
+.sub-containers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+
+.container-oud {
+    max-width: 25%;
+    max-height: 15%;
+    padding: 20px;
+    background-color: #0062FF;
+    opacity: 95%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);    
+}
+
+.container-pr {
+    max-width: 25%;
+    max-height: 15%;
+    padding: 20px;
+    background-color: #0062FF;
+    opacity: 95%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
